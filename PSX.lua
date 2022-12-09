@@ -43,7 +43,7 @@ local Tab = Window:MakeTab({
     Tab:AddButton({
         Name = "(Risky) Start Dupe!",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/info.lua"))()
           end    
     })
     
@@ -97,7 +97,7 @@ local Tab = Window:MakeTab({
         Name = "ON",
         Default = false,
         Callback = function(Value)
-             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/info.lua"))()
         end    
     })
 
