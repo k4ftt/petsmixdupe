@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX PRIVATE V3.6", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "[✨SHINY] UPDATE - PSX PRIVATE V3.8", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -25,7 +25,7 @@ local Tab = Window:MakeTab({
         Name = "Update"   
      })
    
-   Tab:AddParagraph("[⚡ANIME] UPDATE!","Version 3.6!")
+   Tab:AddParagraph("[✨SHINY] UPDATE!","Version 3.8!")
 
          
       local Tab = Window:MakeTab({
@@ -41,7 +41,7 @@ local Tab = Window:MakeTab({
     
     
     Tab:AddButton({
-        Name = "(Risky) Start Dupe!",
+        Name = "Start Dupe!",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/info.lua"))()
           end    
@@ -166,7 +166,7 @@ local Tab = Window:MakeTab({
     
         OrionLib:MakeNotification({
 	Name = "Thanks for using 8888 Hub!",
-	Content = "Version 3.6",
+	Content = "Version 3.8",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
