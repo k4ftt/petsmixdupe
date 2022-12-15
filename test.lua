@@ -144,9 +144,10 @@ local Tab = Window:MakeTab({
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
+Name = "How to use"
+    })
 
- Tab:AddLabel("You need to make a pet in your booth the click ON if someone")
- Tab:AddLabel("buys It, you will get the gems and the pet will still be in your inventory")
+ Tab:AddLabel("You need to make a pet in your booth the click ON if someone buys It" , "you will get the gems and the pet will still be in your" , "inventory")
 
 local Section = Tab:AddSection({
 	Name = "ON/OFF"
@@ -168,11 +169,14 @@ local Section = Tab:AddSection({
         end    
     })
 
-Tab:AddLabel("In This Section Everything you buy will be free and you both")
-Tab:AddLabel("will get the gems But you can't buy something that worths 1B and you only have like 100M")
+Name = "How to use"
+    })
+
+Tab:AddLabel("In This Section Everything you buy will be free and you both" , "will get the gems But you can't buy something that worths 1B" , "and you only have like 100M" )
 
 local Section = Tab:AddSection({
-	Name = "ON/OFF"
+	
+Name = "ON/OFF"
     })
 
     Tab:AddButton({
